@@ -1,0 +1,70 @@
+.container-cardbioarquitetura{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5% ;
+    margin-bottom: 10%;
+}
+
+span {
+    color: #f7a156;
+}
+
+.container-text-cardbioarquitetura{
+    max-width: 50%;
+    margin-left: 100px;
+    color: #fff;
+}
+.container-text-cardbioarquitetura h1{
+    list-style: none;
+    color: #f7a156;
+}
+
+.lista-bioarquitetura li{
+    margin-bottom: 30px;
+}
+.lista-bioarquitetura li p {
+    font-size: 25px;
+}
+
+.imagens-pequenas {
+    height: 417px;
+    width: 626px;
+    border-radius: 50px;
+}
+
+.links-t a {
+    color: rgb(231, 169, 77);
+    text-decoration-line: none;
+    font-size: 25px
+}
+
+
+@media(max-width:1200px){
+    .container-img-cardbioarquiteturas img{
+        width: 100%;
+    }
+}
+
+@media(max-width:1100px){
+    .container-cardbioarquitetura{
+        flex-direction: column;
+        padding: 5% ;
+        margin-top: 100px;
+    }
+
+    .container-img-cardbioarquitetura{
+        margin: 0;
+        width: 100%;
+    }
+
+
+    .container-img-cardbioarquitetura img{
+        width: 100%;
+    }
+    
+    .container-text-cardbioarquitetura{
+        max-width: 100%;
+        margin: 0;
+    }
+}

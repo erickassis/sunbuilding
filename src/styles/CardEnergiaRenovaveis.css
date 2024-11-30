@@ -1,0 +1,91 @@
+.container-cardenergiarenovaveis{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5% ;
+    margin-bottom: 10%;
+}
+
+.container-text-cardenergiarenovaveis{
+    max-width: 50%;
+    margin-left: 100px;
+    color: #fff;
+}
+
+.container-text-cardenergiarenovaveis h1{
+    list-style: none;
+    color: #F7A156;
+    
+}
+
+.lista-energiarenovaveis li{
+    margin-bottom: 30px;
+}
+
+.lista-energiarenovaveis li p {
+    font-size: 25px;
+}
+.links-t a:hover {
+    color: white;
+}
+
+.links-t a:active {
+    color: rgb(139, 151, 161);
+}
+
+span {
+    color: #f7a156;
+}
+
+.links-t a {
+    color: rgb(231, 169, 77);
+    text-decoration-line: none;
+}
+.imagens-pequenas {
+    height: 417px;
+    width: 626px;
+}
+
+
+@media(max-width:1200px){
+    .container-img-cardenergiarenovaveis img{
+        width: 100%;
+    }
+}
+
+@media(max-width:850px){
+    .container-img-cardenergiarenovaveis{
+        width: 70%;
+
+    }
+    .container-img-cardenergiarenovaveis img{
+        width: 100%;
+    }
+
+    .container-text-cardenergiarenovaveis{
+        margin-left: 70px;
+    }
+}
+
+@media(max-width:700px){
+    .container-cardenergiarenovaveis{
+        flex-direction: column;
+        padding: 5% ;
+        margin-top: 100px;
+    }
+
+    .container-img-cardenergiarenovaveis{
+        margin: 0;
+        width: 100%;
+    }
+
+
+    .container-img-cardenergiarenovaveis img{
+        width: 100%;
+    }
+    
+    .container-text-cardenergiarenovaveis{
+        max-width: 100%;
+        margin: 0;
+    }
+}

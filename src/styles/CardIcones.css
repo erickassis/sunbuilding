@@ -1,0 +1,77 @@
+.container-cardicones {
+  max-width: 100%;
+  padding-bottom: 200px;
+}
+
+.container-img-cardicones {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.background-img-cardicones {
+  width: 90%;
+  height: 600px;
+  border-radius: 40px;
+  object-fit: cover;
+}
+
+.list-cardicones {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  position: absolute;
+  top: 90%;
+  padding: 0;
+  margin: 0;
+}
+
+.img-card-icones {
+  border-radius: 40px;
+  max-width: 100%;
+  height: auto;
+}
+
+.list-cardicones li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-cardicones li img {
+  width: 100%;
+  height: auto;
+  max-width: 200px;
+  max-height: 200px;
+}
+
+@media (max-width: 1000px) {
+  .list-cardicones li img {
+    max-width: 150px;
+    max-height: 180px;
+  }
+}
+
+@media (max-width: 750px) {
+  .list-cardicones li img {
+    max-width: 130px;
+    max-height: 150px;
+  }
+}
+
+@media (max-width: 560px) {
+  .list-cardicones li img {
+    max-width: 100px;
+    max-height: 120px;
+  }
+}
+
+@media (max-width: 460px) {
+  .list-cardicones li img {
+    max-width: 80px;
+    max-height: 100px;
+  }
+}

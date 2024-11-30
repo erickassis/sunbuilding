@@ -1,0 +1,83 @@
+.container-cardsmartcities{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5% ;
+    margin-bottom: 10%;
+}
+
+.container-text-cardsmartcities{
+    max-width: 50%;
+    margin-left: 100px;
+    color: #fff;
+}
+
+.container-text-cardsmartcities h1{
+    list-style: none;
+    color: #F7A156;
+    
+}
+
+.lista-smartcities li{
+    margin-bottom: 30px;
+}
+
+.lista-smartcities li p {
+    font-size: 25px;
+}
+
+.imagens-pequenas {
+    height: 417px;
+    width: 626px;
+}
+
+span {
+    color: #f7a156;
+}
+.links-t a {
+    color: rgb(231, 169, 77);
+    text-decoration-line: none;
+}
+
+@media(max-width:1200px){
+    .container-img-cardsmartcities img{
+        width: 100%;
+    }
+}
+
+@media(max-width:850px){
+    .container-img-cardsmartcities{
+        width: 70%;
+
+    }
+    .container-img-cardsmartcities img{
+        width: 100%;
+    }
+
+    .container-text-cardsmartcities{
+        margin-left: 70px;
+    }
+}
+
+@media(max-width:700px){
+    .container-cardsmartcities{
+        flex-direction: column;
+        padding: 5% ;
+        margin-top: 100px;
+    }
+
+    .container-img-cardsmartcities{
+        margin: 0;
+        width: 100%;
+    }
+
+
+    .container-img-cardsmartcities img{
+        width: 100%;
+    }
+    
+    .container-text-cardsmartcities{
+        max-width: 100%;
+        margin: 0;
+    }
+}
